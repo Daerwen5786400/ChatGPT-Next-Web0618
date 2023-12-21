@@ -216,11 +216,12 @@ export function SideBar(props: { className?: string }) {
               <IconButton icon={<SettingsIcon />} shadow />
             </Link>
           </div>
-          <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
+          #这里是添加一个div
+         # <div className={styles["sidebar-action"]}>
+            <a href={你的链接} target="_blank" rel="noopener noreferrer">
               <IconButton icon={<GithubIcon />} shadow />
             </a>
-          </div>
+          </div>#
         </div>
         <div>
           <IconButton
