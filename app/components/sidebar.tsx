@@ -217,11 +217,7 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           #这里是添加一个div
-         # <div className={styles["sidebar-action"]}>
-            <a href={你的链接} target="_blank" rel="noopener noreferrer">
-              <IconButton icon={<GithubIcon />} shadow />
-            </a>
-          </div>#
+         
         </div>
         <div>
           <IconButton
